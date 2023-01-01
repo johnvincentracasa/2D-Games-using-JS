@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+
+    <style>
+      * {
+        /* outline: 1px dotted red; */
+      }
+
+      body {
+        padding: 0;
+      }
+
+      #world div {
+        display: inline-block;
+        line-height: 0px;
+      }
+      #world {
+        background-color: black;
+      }
+
+      .wall {
+        background-color: blue; /* black */
+        width: 50px;
+        height: 50px;
+        margin: -3px;
+      }
+      .ground {
+        background-color: black; /* black */
+        width: 50px;
+        height: 50px;
+        margin: -3px;
+      }
+
+      .pacman_right {
+        background-image: url("./images/pacman_right.png");
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: -3px;
+      }
+
+      .pacman_left {
+        background-image: url("./images/pacman_left.png");
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: -3px;
+      }
+
+      .pacman_up {
+        background-image: url("./images/pacman_up.png");
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: -3px;
+      }
+
+      .pacman_down {
+        background-image: url("./images/pacman_down.png");
+        background-size: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: -3px;
+      }
+      .coin {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: gold;
+        margin: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="world">
+      <!-- <div class="wall"></div>
+      <div class="wall"></div>
+      <div class="wall"></div>
+      <div class="wall"></div>
+      <div class="wall"></div>
+      <div id="pacman"></div> -->
+    </div>
+
+    <h1 id="score">Score</h1>
+
+    <script src="index.js"></script>
+  </body>
+</html>
